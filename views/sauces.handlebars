@@ -1,0 +1,11 @@
+<div>
+    {{#each sauces}}
+        <div>
+            <img src="{{this.image}}"/>
+            <a href="/sauces/{{id}}">Click to see {{name}}</a>
+        </div>
+    {{/each}}
+    <div>
+        <a href="/new-sauce-form" class="new-sauce-btn">Add New Sauce!</a>
+    </div>
+</div>

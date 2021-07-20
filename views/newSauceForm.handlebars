@@ -1,0 +1,14 @@
+{{!-- something goes in here! --}}
+<form method="post" action="/new-sauce">
+    <label for="name">Hot Sauce Name</label>
+    <input type="text" id="name" name="name" required>
+    <label for="image">Insert Image URL</label>
+    <input type="text" id="image" name="image" required>
+    <input type="submit">
+</form>
+
+
+{{!-- 
+submit -> post http request -> /new-sauce app.post("/new-sauce", (req,res)
+req.body{name: "Sambal", image: "sambal.jpg"}
+--}}
